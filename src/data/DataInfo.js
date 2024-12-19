@@ -9,37 +9,37 @@ import video6 from '../image/video6.mp4'
 export const models = [
     {
         image:video1,// import,
-        miniimage:"video1",
+        miniimage:"bg-video1",
         title:"Rani Chikankari Geo",
         price:"8472"
     },
     {
         image:video2,// import,
-        miniimage:"video3",
+        miniimage:"bg-video3",
         title:"Green Printed Silk Lehenga Choli With Net Dupatta",
         price:"3112"
     }, 
     {
         image:video3,// import,
-        miniimage:"video2",
+        miniimage:"bg-video2",
         title:"Gown In Two-Tone Georgette Fabric With Thread, Sequins, And Cut Dana Work",
         price:"11331"
     },
     {
         image:video4,// import,
-        miniimage:"video4",
+        miniimage:"bg-video4",
         title:"Rani Two-Tone Georgette Gown",
         price:"7992"
     },
     {
         image:video5,// import,
-        miniimage:"video5",
+        miniimage:"bg-video5",
         title:"Printed Silk Lehenga Choli With Matching Net Dupatta",
         price:"3112"
     },
     {
         image: video6,// import,
-        miniimage:"video6",
+        miniimage:"bg-video6",
         title:"Brown Color Printed Silk Gown With Net Dupatta",
         price:"3368"
     }

@@ -15,7 +15,7 @@ const Show = () => {
                                     <video loop autoPlay="true" muted width={200} height={200}>
                                             <source src={data.image} type="video/mp4" className='bg-cover' />
                                     </video>
-                                    <div className={` absolute bg-${data.miniimage} h-[74px] rounded-sm w-16 p-2 border-2 border-white -bottom-1 left-2 bg-cover bg-bottom`}></div>
+                                    <div className={` absolute ${data.miniimage} h-[74px] rounded-sm w-16 p-2 border-2 border-white -bottom-1 left-2 bg-cover bg-bottom`}></div>
                                 </div>
 
                                 <div>
