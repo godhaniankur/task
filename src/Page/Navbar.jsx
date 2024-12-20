@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../image/do.avif";
 import { IoMdCall } from "react-icons/io";
+import { Link } from 'react-router-dom';
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 
 const Navbar = () => {
@@ -49,7 +50,7 @@ const Navbar = () => {
                                 className="bg-[#8B2823] text-red-200 px-5 py-2 rounded-full tracking-widest font-semibold hover:bg-[#6f211d] transition duration-200"
                                 title="Book an Appointment"
                             >
-                                BOOK APPOINTMENT
+                               <Link to="/appointment">BOOK APPOINTMENT</Link> 
                             </button>
                         </div>
                     </nav>

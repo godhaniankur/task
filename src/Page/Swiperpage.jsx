@@ -4,9 +4,12 @@ import { Autoplay, Pagination, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import Show from './Show';
 
 const Swipers = () => {
   return (
+    
+      
     <div className='w-full mt-20'>
       <div className='w-full flex items-center justify-center'>
         <Swiper
@@ -37,6 +40,7 @@ const Swipers = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      <Show/>
     </div>
   );
 };
