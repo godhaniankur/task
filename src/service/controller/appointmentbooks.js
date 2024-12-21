@@ -5,7 +5,7 @@ import { ApiConneter } from '../apiConnter';
 export async function book(data1, navigate) {
     const toastID = toast.loading("wait...")
     try {
-        console.log("Data being sent to API:", data1);
+        // console.log("Data being sent to API:", data1);
 
         const response = await ApiConneter(
             "POST",
@@ -17,11 +17,11 @@ export async function book(data1, navigate) {
             throw new Error(response.data.message);
         }
 
-        console.log("API Response:", response);
+        // console.log("API Response:", response);
         toast.success("apointment is final.")
         navigate("/");
     } catch (error) {
-        console.error("Error occurred:",error);
+        // console.error("Error occurred:",error);
         toast.error("oops! somting wan't to wrong")
     }
     toast.dismiss(toastID)
