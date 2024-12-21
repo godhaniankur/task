@@ -1,4 +1,4 @@
 
 export const appointment_Endpoint = {
-    APPOINTMENT_API_URL_USER : "http://localhost:1527/api" + "/user/book/Appointments"
+    APPOINTMENT_API_URL_USER : "https://task-vbqd.onrender.com/api" + "/user/book/Appointments"
 }
