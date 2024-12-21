@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
 	cors({
-		origin:"http://localhost:3001",
+		origin:"https://task-woad-delta.vercel.app",
 		credentials:true,
 		
 	})
